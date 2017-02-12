@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+#main{
+	max-width: 960px;
+	width: 100%;
+}
+#sidebar{
+	display:none;
+}
+.photogallery{
+	width:100%;
+}
+.thumbnail{
+	float: left;
+	margin: 1%;
+	width:31%;
+}
+.thumbdiv{
+	width: 300px;
+	margin: 0 auto;
+}
+.thumbdiv img{
+	max-width: 300px;
+}
+.large-500{
+	width: 500px;
+	margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 799px) AND (min-width:480px)
+{
+	#sidebar {
+		
+	}
+	#main{
+		
+	}
+	footer {
+		
+	}
+	.thumbnail{
+		float: left;
+		margin: 2%;
+		width: 45%;
+		}
+	.thumbdiv{
+		width: 300px;
+		margin: 0 auto;
+	}
+	.thumbdiv img{
+		max-width: 300px;
+	}
+}
+@media only screen and (max-width: 480px){
+	
+	/*Set classes for images*/
+	.large-500 img{
+		width: 100%;
+		max-width: 450px;
+	}
+	.thumbnail{
+		float: none;
+		margin:10px;
+		width:auto;
+	}
+	.thumbdiv img{
+		max-width: 300px;
+	}
+	.large-900 img{
+		width: 100%;
+		max-width: 450px;
+		margin: 0 auto;
+		
+	}
+	
+}

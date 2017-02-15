@@ -142,7 +142,7 @@ p.contact{
 	background-color: #ffffff; 
 	max-width: 960px;
 	width:100%; 	
-	border: thin solid #2e294e; 
+	/*border: thin solid #2e294e;*/ 
 	margin: 0 auto; 
 
 } 
@@ -178,7 +178,7 @@ footer {
 	height: 118px;
 	background-color: #6761a8;
 	margin-top:20px;
-	border:thin solid #454444;
+	/*border:thin solid #454444;*/
 	color: #ffffff;
 }
 .footerp{
@@ -223,10 +223,12 @@ large-500 img{
 	max-width:500px;
 }
 #logodiv{
-		width: 400px;
-		margin: 0 auto;
-		margin-top: 20px;
-		margin-bottom: 20px;
+	width: 100%;
+	max-width: 393px;
+	margin: 0 auto;
+	/*margin-top: 5px;*/
+	padding-top: 20px;
+	margin-bottom: 20px;
 	}
 .large-900 img{
 	max-width: 100%;
